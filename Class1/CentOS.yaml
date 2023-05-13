@@ -1,0 +1,8 @@
+- debug:
+    msg: "Hello from CentOs" 
+- name: Install httpd
+  yum:
+    name:: httpd
+    state: present
+    update_cache: yes
+
